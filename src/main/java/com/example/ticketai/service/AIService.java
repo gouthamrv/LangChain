@@ -15,7 +15,7 @@ public class AIService {
 
     public String analyze(String description){
 
-        return assistant.analyzeTicket(description);
+        return assistant.answer(description);
 
     }
 

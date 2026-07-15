@@ -42,7 +42,7 @@ public class RagService {
 
         prompt.append(question);
 
-        return aiService.answer(prompt.toString());
+        return aiService.analyze(prompt.toString());
 
     }
 
