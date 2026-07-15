@@ -1,0 +1,18 @@
+spring:
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/tickets
+    username: postgres
+    password: postgres
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+langchain4j:
+
+  open-ai:
+
+    chat-model:
+      api-key: ${OPENAI_API_KEY}
+      model-name: gpt-4.1-mini
